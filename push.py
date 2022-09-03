@@ -6,7 +6,7 @@ import time
 message = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 message = " \"" + message + "\" "
 
-repository = " algorithm_ssh "
+repository = " go_redis_ssh "
 branch = " master "
 if len(sys.argv) >= 2:
 	message = sys.argv[1]
